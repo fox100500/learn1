@@ -10,7 +10,7 @@ import (
 
 func StartPage(rw http.ResponseWriter, r *http.Request, p httprouter.Params) {
 	//указываем путь к нужному файлу
-	path := filepath.Join("public", "html", "index.html")
+	path := filepath.Join("public", "html", "index2.html")
 
 	//создаем html-шаблон
 	tmpl, err := template.ParseFiles(path)
